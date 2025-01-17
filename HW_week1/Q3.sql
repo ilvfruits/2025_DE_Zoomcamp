@@ -8,4 +8,4 @@ FROM
     "green_taxi_2019"
 WHERE 
     lpep_pickup_datetime >= '2019-10-01 00:00:00' 
-    AND lpep_pickup_datetime < '2019-11-01 00:00:00';
+    AND lpep_dropoff_datetime < '2019-11-01 00:00:00';
